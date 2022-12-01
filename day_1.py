@@ -21,7 +21,7 @@ def main():
     file.close()
 
     lista_summista.sort(reverse=True)
-    print(lista_summista[0])
+    print(sum(lista_summista[:3]))
 
 if __name__ == "__main__":
     main()
